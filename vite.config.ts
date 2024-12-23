@@ -1,14 +1,14 @@
-import { defineConfig } from "vite";
+import { defineConfig } from 'vite';
 
 export default defineConfig({
   build: {
     lib: {
-      entry: "src/index.ts",
-      name: "vimic",
-      formats: ["es"],
+      entry: 'src/index.ts',
+      name: 'vimic',
+      formats: ['es']
     },
     rollupOptions: {
-      external: ["vitest"],
-    },
-  },
+      external: ['vitest']
+    }
+  }
 });
