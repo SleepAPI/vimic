@@ -1,6 +1,6 @@
 {
   "name": "vimic",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "A Vitest mocking helper that simplifies the mocking process.",
   "main": "./dist/vimic.mjs",
   "types": "./dist/index.d.ts",
