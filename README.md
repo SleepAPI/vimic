@@ -25,6 +25,8 @@ it('should mock a single implementation', () => {
 ### Mock with `mockImplementationOnce`
 
 ```typescript
+import * as mockModule from 'some-module.js';
+
 it('should mock multiple implementations in sequence', () => {
   const mock1 = (arg: string) => `First call: ${arg}`;
   const mock2 = (arg: string) => `Second call: ${arg}`;
