@@ -1,6 +1,6 @@
 {
   "name": "vimic",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A Vitest mocking helper that simplifies the mocking process.",
   "author": "McMomo",
   "contributors": [
@@ -11,7 +11,7 @@
   ],
 
   "keywords": ["vitest", "testing", "mocking", "typescript"],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SleepAPI/vimic.git"
