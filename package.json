@@ -1,6 +1,6 @@
 {
   "name": "vimic",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "A Vitest mocking helper that simplifies the mocking process.",
   "author": "McMomo",
   "contributors": [
@@ -27,6 +27,7 @@
     "test": "vitest run",
     "test-watch": "vitest",
     "lint": "eslint . && prettier --check .",
+    "local": "npm run build && npm link",
     "release": "npm run build && npm publish --access public"
   },
 
